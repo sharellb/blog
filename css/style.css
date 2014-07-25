@@ -1,0 +1,113 @@
+
+/* GENERAL*/
+
+body {
+	font-family: sans-serif;
+	text-align: center;
+	margin: 0 0 100px;
+	padding: 55px;
+}
+
+
+a {
+	text-decoration:none;
+}
+/* ARTICLES */
+article p {
+	text-align: justify;
+}
+
+article {
+	top-padding: 210px;
+}
+/* HEADER */
+
+header {
+	font-family: 'Poiret One', cursive;
+	border-bottom: #800000;
+	text-align: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow:hidden;
+	height: 200px;
+}
+
+
+
+
+/****** NAVIGATION *******/
+/*
+nav {
+  background: none;
+  float: right;
+  font-size: 1.125em;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+*/
+/****** FOOTER ******/
+/*footer {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow:hidden;
+}*/
+
+h1 {
+	font-size: 70px;
+}
+/****** COLORS ******/
+/*white body */
+body {
+	background-color: #fff;
+	color: #000;
+}
+/*black header */
+header {
+	background-color: #000;
+	color: #fff;
+}
+
+/*header color white */
+header h1 {
+	color: #fff;
+}
+
+/*links maroon */
+a {
+	color: #800000;
+}
+
+/* links white for navigation */
+nav a {
+	color: #fff;
+}
+
+/*footer {
+	background-color: #000;
+	color: #fff;
+}*/
+
+h3, h2, h1{
+	color: #000;
+}

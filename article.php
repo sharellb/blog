@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Blog Title</h1>
+
 <?php
+	include('inc/header.php');
 	$localhost = 'localhost';
 	$username = 'root';
 	$password = '';
@@ -22,14 +21,15 @@
 		}	
 
 		$row = mysql_fetch_array($result);
-
-		echo '<h1>' . $row['title'] . '</a><br/></h>';
+		echo '<article>';
+		echo '<h2>' . $row['title'] . '</a><br/></h2>';
 		echo '<h3>' . $row['author'] . '<br/></h3>';
 		echo '<p>' . $row['body'] . '<br/></p>';
 		echo '<br/>';
-
+		echo '</article>';
 		mysql_close($connection);
 	}
+	include('inc/footer.php');
 ?>
 </body>
 </html>
