@@ -4,7 +4,7 @@
 	include('inc/header.php');
 	$localhost = 'localhost';
 	$username = 'root';
-	$password = '';
+	$password = 'test54321';
 	$connection = mysql_connect($localhost, $username, $password);
 
 	if (!$connection) {
