@@ -18,7 +18,7 @@
 
   		if($result === FALSE) {
     		die(mysql_error());
-		}	
+		}
 
 		$row = mysql_fetch_array($result);
 		echo '<article>';
