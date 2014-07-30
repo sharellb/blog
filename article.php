@@ -5,6 +5,7 @@
 	$localhost = 'localhost';
 	$username = 'root';
 	$password = 'test54321';
+	// $password = '';
 	$connection = mysql_connect($localhost, $username, $password);
 
 	if (!$connection) {

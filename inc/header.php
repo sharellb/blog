@@ -7,11 +7,5 @@
 <body>
 	<header>
 		<h1>Writing</h1>
-<!-- 		<nav>
-			<ul>
-				<li><a href="/blog">Home</a></li>
-				<li><a href="/blog/about.php">About</a></li>
-				<li><a href="/blog/contact.php">Contact</a></li>
-			</ul>
-		</nav> -->
+		<img id="text-icon" src="http://etc-mysitemyway.s3.amazonaws.com/icons/legacy-previews/icons/simple-black-square-icons-business/126764-simple-black-square-icon-business-text-size.png">
 	</header>
